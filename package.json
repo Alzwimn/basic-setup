@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "alzwimn <alzwimn@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "typescript": "^4.2.3"
+  }
 }
