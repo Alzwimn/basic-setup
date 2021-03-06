@@ -4,9 +4,18 @@
   "main": "index.js",
   "author": "alzwimn <alzwimn@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "start:dev": "ts-node-dev src/index.ts"
+  },
   "devDependencies": {
+    "@types/jest": "^26.0.20",
     "@types/module-alias": "^2.0.0",
     "@types/node": "^14.14.31",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.3",
+    "ts-node-dev": "^1.1.6",
     "typescript": "^4.2.3"
   },
   "dependencies": {
