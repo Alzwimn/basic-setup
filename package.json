@@ -5,7 +5,11 @@
   "author": "alzwimn <alzwimn@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/module-alias": "^2.0.0",
     "@types/node": "^14.14.31",
     "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
   }
 }
